@@ -19,6 +19,27 @@ code {
     monospace;
 }
 
-.error{
-  color: rgba(177, 0, 0, 0.685);
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar{
+  background-color: rgb(192, 55, 255);
+  padding: 1rem 2rem;
+  text-align: right;
+  color: white;
+}
+.form{
+  margin-top: 3rem;
+}
+
+input{
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+}
+
+label{
+  font-size: 1.3rem;
 }
